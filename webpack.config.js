@@ -42,7 +42,7 @@ module.exports = {
     new CopyWebpackPlugin([{ from: 'images/', to: 'images' }, 'decoder.js', 'manifest.json', 'CNAME'], {
       context: './app'
     }),
-    new SitemapPlugin('https://qrcodescan.in', ['/'])
+    new SitemapPlugin('https://hackerramp-qr-scanner.herokuapp.com', ['/'])
   ],
   module: {
     rules: [
